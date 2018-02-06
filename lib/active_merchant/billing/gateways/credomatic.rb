@@ -6,8 +6,8 @@ module ActiveMerchant #:nodoc:
   module Billing #:nodoc:
     class CredomaticGateway < Gateway
       # No Test URL
-      self.test_url = 'https://paycom.credomatic.com:8443/PayComBackEndWeb/common/requestPaycomService.go.'
-      self.live_url = 'https://paycom.credomatic.com:8443/PayComBackEndWeb/common/requestPaycomService.go.'
+      self.test_url = 'https://paycom.credomatic.com:8443/PayComBackEndWeb/common/requestPaycomService.go'
+      self.live_url = 'https://paycom.credomatic.com:8443/PayComBackEndWeb/common/requestPaycomService.go'
 
       self.supported_countries = ['NI']
       self.default_currency = 'USD'
